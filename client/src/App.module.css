@@ -1,0 +1,29 @@
+.app  { display: flex; flex-direction: column; min-height: 100vh; }
+.main { flex: 1; }
+
+.workspaceWrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  animation: fadeUp 0.7s 0.15s ease both;
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid var(--ink);
+  box-shadow: var(--shadow-lg);
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 860px) {
+  .workspace { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  .workspaceWrap { padding: 0; }
+  .workspace { border-left: none; border-right: none; }
+}

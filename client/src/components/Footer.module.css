@@ -1,0 +1,12 @@
+.footer {
+  text-align: center;
+  padding: 1.5rem 2rem;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+  border-top: 1px solid var(--border);
+  background: var(--paper);
+}
+.brand { font-weight: 600; color: var(--amber-deep); }
+.sep   { margin: 0 0.6rem; opacity: 0.35; }

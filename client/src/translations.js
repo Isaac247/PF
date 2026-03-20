@@ -1,0 +1,405 @@
+// ============================================
+// PROMPTFORGE — Translations
+// Supported: English, Pidgin, Hausa, Yoruba, Igbo
+// ============================================
+
+export const LANGUAGES = [
+  { code: 'en',     label: 'English',        flag: '🇬🇧', nativeName: 'English' },
+  { code: 'pidgin', label: 'Pidgin English',  flag: '🇳🇬', nativeName: 'Naija Pidgin' },
+  { code: 'ha',     label: 'Hausa',           flag: '🇳🇬', nativeName: 'Hausa' },
+  { code: 'yo',     label: 'Yoruba',          flag: '🇳🇬', nativeName: 'Yorùbá' },
+  { code: 'ig',     label: 'Igbo',            flag: '🇳🇬', nativeName: 'Igbo' },
+];
+
+export const TRANSLATIONS = {
+  en: {
+    // Header
+    tagline: 'AI Prompt Generator',
+    poweredBy: 'Powered by Claude',
+
+    // Hero
+    eyebrow: 'No sign-up. No technical knowledge needed.',
+    heroTitle1: 'Write prompts that make',
+    heroTitle2: 'AI actually listen',
+    heroSub: 'Describe what you want, pick your style, and we build a precision-crafted prompt using proven AI engineering techniques — so you get better results from ChatGPT, Claude, Gemini, and more.',
+    step1: 'Describe your task',
+    step2: 'Choose your style',
+    step3: 'Copy your prompt',
+
+    // Input Panel
+    panelInputTitle: 'Build Your Prompt',
+    taskLabel: 'What do you want the AI to do?',
+    taskPlaceholder: 'e.g. Write a professional email declining a job offer while keeping the relationship warm and leaving the door open for future opportunities...',
+    taskHint: 'Be as specific as possible for the best results',
+    taskRequired: 'Required',
+    modelLabel: 'Which AI are you using?',
+    roleLabel: 'What kind of expert should the AI act as?',
+    rolePlaceholder: 'e.g. Professional copywriter, financial advisor, Python developer...',
+    formatLabel: 'Response format',
+    toneLabel: 'Tone of voice',
+    contextLabel: 'Any extra details or context?',
+    contextPlaceholder: 'Who is the audience? Any constraints? What should the AI avoid? Background info...',
+    optional: '— optional',
+    optionalButHelpful: '— optional but helpful',
+    techniquesTitle: 'Advanced Techniques',
+    techniquesLabel: 'Boost your prompt with these methods',
+    techniquesHint: '— hover for details',
+    generateBtn: 'Generate My Prompt',
+    generating: 'Crafting your prompt…',
+
+    // Output Panel
+    panelOutputTitle: 'Your Generated Prompt',
+    emptyTitle: 'Your prompt will appear here',
+    emptySub: 'Fill in the form and click Generate',
+    loadingTitle: 'Crafting your precision prompt…',
+    loadingSub: 'This usually takes 5–10 seconds',
+    promptStrength: 'Prompt strength',
+    copyBtn: 'Copy Prompt',
+    copied: '✓ Copied to clipboard!',
+    refineBtn: 'Refine',
+    refining: 'Refining…',
+    saveBtn: 'Save',
+    whyTitle: 'Why this prompt works',
+
+    // Tips
+    tipsHeading: '💡 Pro Tips for Better Prompts',
+
+    // Errors
+    errorNoTask: 'Please describe what you want the AI to do.',
+    errorGeneral: 'Something went wrong. Please try again.',
+    errorRefine: 'Refinement failed. Please try again.',
+
+    // Footer
+    footerBuiltOn: "Built on Anthropic's Prompt Engineering Guide",
+    footerPowered: 'Powered by Claude Sonnet 4',
+
+    // Language selector
+    languageLabel: 'Language',
+  },
+
+  pidgin: {
+    tagline: 'AI Prompt Generator',
+    poweredBy: 'Claude Power Am',
+
+    eyebrow: 'No need sign up. No need sabi tech.',
+    heroTitle1: 'Write prompt wey go make',
+    heroTitle2: 'AI hear you well well',
+    heroSub: 'Tell am wetin you want, choose your style, we go build correct prompt for you — so you go get better result from ChatGPT, Claude, Gemini and others.',
+    step1: 'Talk wetin you want',
+    step2: 'Choose your style',
+    step3: 'Copy your prompt',
+
+    panelInputTitle: 'Build Your Prompt',
+    taskLabel: 'Wetin you want AI make e do?',
+    taskPlaceholder: 'e.g. Write correct email to turn down job offer, but make the person know say we still dey cool and door still open for future...',
+    taskHint: 'The more you explain, the better result you go get',
+    taskRequired: 'You must fill this one',
+    modelLabel: 'Which AI you dey use?',
+    roleLabel: 'Which kind expert you want AI pretend to be?',
+    rolePlaceholder: 'e.g. Professional writer, financial adviser, software developer...',
+    formatLabel: 'How you want the answer look?',
+    toneLabel: 'Which kind tone you want?',
+    contextLabel: 'Any extra information?',
+    contextPlaceholder: 'Who be the audience? Any limit? Wetin AI no suppose do? Background gist...',
+    optional: '— no be must',
+    optionalButHelpful: '— no be must but e go help',
+    techniquesTitle: 'Advanced Techniques',
+    techniquesLabel: 'Use these methods to make your prompt stronger',
+    techniquesHint: '— hover to see details',
+    generateBtn: 'Generate My Prompt',
+    generating: 'E dey cook your prompt…',
+
+    panelOutputTitle: 'Your Prompt Don Ready',
+    emptyTitle: 'Your prompt go show here',
+    emptySub: 'Fill the form then click Generate',
+    loadingTitle: 'E dey cook your prompt well well…',
+    loadingSub: 'E go ready in 5–10 seconds',
+    promptStrength: 'Prompt strength',
+    copyBtn: 'Copy Prompt',
+    copied: '✓ E don copy!',
+    refineBtn: 'Refine Am',
+    refining: 'E dey refine…',
+    saveBtn: 'Save',
+    whyTitle: 'Why this prompt dey work',
+
+    tipsHeading: '💡 Tips To Make Your Prompt Better',
+
+    errorNoTask: 'Abeg tell us wetin you want AI make e do.',
+    errorGeneral: 'Something go wrong. Abeg try again.',
+    errorRefine: 'Refinement fail. Abeg try again.',
+
+    footerBuiltOn: "Built on Anthropic's Prompt Engineering Guide",
+    footerPowered: 'Claude Sonnet 4 Power Am',
+
+    languageLabel: 'Language',
+  },
+
+  ha: {
+    tagline: 'Injin Samar da Umarni na AI',
+    poweredBy: 'Claude ya Ƙarfafa shi',
+
+    eyebrow: 'Babu buƙatar rajista. Babu buƙatar ilimin fasaha.',
+    heroTitle1: 'Rubuta umarni da zai sa',
+    heroTitle2: 'AI ya saurare ka',
+    heroSub: 'Bayyana abin da kake so, zaɓi sifarka, mu gina ingantaccen umarni tare da fasahohin AI da aka tabbatar — don samun sakamakon da ya fi kyau daga ChatGPT, Claude, Gemini, da sauransu.',
+    step1: 'Bayyana ayyukanka',
+    step2: 'Zaɓi sifarka',
+    step3: 'Kwafi umarninka',
+
+    panelInputTitle: 'Gina Umarninka',
+    taskLabel: 'Me kake son AI ya yi?',
+    taskPlaceholder: 'Misali: Rubuta wasiƙa ta ƙwararru don ƙin tayin aiki yayin da kake kiyaye dangantaka da barin ƙofar bude don damar gaba...',
+    taskHint: 'Kara bayani don samun sakamakon da ya fi kyau',
+    taskRequired: 'Ana buƙata',
+    modelLabel: 'Wane AI kake amfani da shi?',
+    roleLabel: 'Wane irin ƙwararre kake son AI ya zama?',
+    rolePlaceholder: 'Misali: Marubuci na ƙwararru, mai ba da shawara na kuɗi, mai haɓaka software...',
+    formatLabel: 'Tsarin amsa',
+    toneLabel: 'Yanayin magana',
+    contextLabel: 'Wasu bayani ko mahallin?',
+    contextPlaceholder: 'Wane ne masu sauraro? Wane iyaka? Menene AI bai kamata ya yi ba? Bayanan baya...',
+    optional: '— ba dole ba',
+    optionalButHelpful: '— ba dole ba amma yana taimakawa',
+    techniquesTitle: 'Fasahohi na Ci Gaba',
+    techniquesLabel: 'Ƙarfafa umarninka da waɗannan hanyoyin',
+    techniquesHint: '— danna don ganin cikakken bayani',
+    generateBtn: 'Samar da Umarnina',
+    generating: 'Ana gina umarninka…',
+
+    panelOutputTitle: 'Umarninka da Aka Samar',
+    emptyTitle: 'Umarninka zai bayyana anan',
+    emptySub: 'Cika fom ɗin kuma danna Samar',
+    loadingTitle: 'Ana samar da ingantaccen umarninka…',
+    loadingSub: 'Wannan yakan ɗauki daƙiƙa 5–10',
+    promptStrength: 'Ƙarfin umarni',
+    copyBtn: 'Kwafi Umarni',
+    copied: '✓ An kwafi!',
+    refineBtn: 'Inganta',
+    refining: 'Ana ingantawa…',
+    saveBtn: 'Ajiye',
+    whyTitle: 'Me ya sa wannan umarni ke aiki',
+
+    tipsHeading: '💡 Shawarwari don Ingantaccen Umarni',
+
+    errorNoTask: 'Da fatan za a bayyana abin da kake son AI ya yi.',
+    errorGeneral: 'Wani abu ya yi kuskure. Da fatan za a sake gwadawa.',
+    errorRefine: 'Ingantawa ta gaza. Da fatan za a sake gwadawa.',
+
+    footerBuiltOn: "An gina akan Jagoran Injiniyan Umarni na Anthropic",
+    footerPowered: 'Claude Sonnet 4 ya ƙarfafa shi',
+
+    languageLabel: 'Harshe',
+  },
+
+  yo: {
+    tagline: 'Olùpilẹ̀ṣẹ̀ Àṣẹ AI',
+    poweredBy: 'Claude Ń Ṣiṣẹ́ Rẹ̀',
+
+    eyebrow: 'Kò sí ìforúkọsilẹ̀. Kò nílò ìmọ̀ ìmọ̀-ẹ̀rọ.',
+    heroTitle1: 'Kọ àṣẹ tí yóò jẹ́ kí',
+    heroTitle2: 'AI gbọ́ ọ dáradára',
+    heroSub: 'Ṣàlàyé ohun tí o fẹ́, yan ara rẹ, a ó kọ àṣẹ tí a ṣe pẹ̀lú ìṣọra nípa lílo àwọn ọgbọ́n AI tí a ti fìdí múlẹ̀ — kí o lè gba àbájáde tó dára jù lọ láti ọwọ́ ChatGPT, Claude, Gemini, àti àwọn míràn.',
+    step1: 'Ṣàlàyé iṣẹ́ rẹ',
+    step2: 'Yan ara rẹ',
+    step3: 'Daakọ àṣẹ rẹ',
+
+    panelInputTitle: 'Kọ Àṣẹ Rẹ',
+    taskLabel: 'Kí ni o fẹ́ kí AI ṣe?',
+    taskPlaceholder: 'Fún àpẹẹrẹ: Kọ ìmẹ̀wòsí àjọ-ṣiṣẹ́ láti kọ̀ ìgbaniláàyò iṣẹ́ tó ń pa àbáwọlé ìbáṣepọ̀ mọ́ àti títọ́jú ẹnu-ọ̀nà bíi ṣíṣí fún àwọn ànfàní ọjọ́ iwájú...',
+    taskHint: 'Jẹ́ pàtó bí o bá ṣe lè ṣe fún àwọn àbájáde tó dára jù',
+    taskRequired: 'Nílò rẹ̀',
+    modelLabel: 'Èwo AI ni o ń lò?',
+    roleLabel: 'Irú akọ̀ṣẹ́mọṣẹ́ wo ni o fẹ́ kí AI ṣe?',
+    rolePlaceholder: 'Fún àpẹẹrẹ: Òǹkọ̀wé akọ̀ṣẹ́mọṣẹ́, olùdámọ̀ràn ìṣúná, olùpilẹ̀ṣẹ̀ sọ́fítiwéàrì...',
+    formatLabel: 'Ìpèsè ìdáhùn',
+    toneLabel: 'Ohùn ọ̀rọ̀',
+    contextLabel: 'Ìsọdipúpọ̀ tàbí ìmọ̀ àfikún?',
+    contextPlaceholder: 'Ta ni olùgbọ́? Àwọn ìdíwọ́ wo? Kí ni AI kò gbọdọ̀ ṣe? Ìsọfúnni abẹ́lẹ̀...',
+    optional: '— kò pọn dandan',
+    optionalButHelpful: '— kò pọn dandan ṣùgbọ́n yóò ràn',
+    techniquesTitle: 'Àwọn Ọgbọ́n Gíga',
+    techniquesLabel: 'Fọwọ́ mú àṣẹ rẹ pọ̀ sí i pẹ̀lú àwọn ọnà wọ̀nyí',
+    techniquesHint: '— fọwọ́ tẹ fún àwọn àlàyé',
+    generateBtn: 'Ṣẹ̀dá Àṣẹ Mi',
+    generating: 'Ń kọ àṣẹ rẹ…',
+
+    panelOutputTitle: 'Àṣẹ Rẹ Tí A Ṣẹ̀dá',
+    emptyTitle: 'Àṣẹ rẹ yóò farahàn níbí',
+    emptySub: 'Kún fọ́ọ̀mù náà kí o sì tẹ Ṣẹ̀dá',
+    loadingTitle: 'Ń ṣẹ̀dá àṣẹ rẹ pẹ̀lú ìṣọra…',
+    loadingSub: 'Èyí máa ń gba ìṣẹ́jú-aaya 5–10',
+    promptStrength: 'Agbára àṣẹ',
+    copyBtn: 'Daakọ Àṣẹ',
+    copied: '✓ A ti daakọ!',
+    refineBtn: 'Mú Dára Sí i',
+    refining: 'Ń mú dára sí i…',
+    saveBtn: 'Tọ́jú',
+    whyTitle: 'Ìdí tí àṣẹ yìí fi ń ṣiṣẹ́',
+
+    tipsHeading: '💡 Àwọn Ìmọ̀ràn fún Àṣẹ Tó Dára Jù',
+
+    errorNoTask: 'Jọ̀wọ́ ṣàlàyé ohun tí o fẹ́ kí AI ṣe.',
+    errorGeneral: 'Nǹkan kan ṣẹlẹ̀ tó burú. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan sí i.',
+    errorRefine: 'Ìmúdára kùnà. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan sí i.',
+
+    footerBuiltOn: "Ti a kọ lórí Ìtọ́nisọ́nà Ìmọ̀-ẹ̀rọ Àṣẹ Anthropic",
+    footerPowered: 'Claude Sonnet 4 Ń Ṣiṣẹ́ Rẹ̀',
+
+    languageLabel: 'Èdè',
+  },
+
+  ig: {
+    tagline: 'Onye Ọrụ AI Prompt',
+    poweredBy: 'Claude Na-Eme Ya',
+
+    eyebrow: 'Ọ dịghị mkpọ aha. Ọ dịghị mkpa ihe ọmụma teknụzụ.',
+    heroTitle1: 'Dee prompt nke ga-eme ka',
+    heroTitle2: 'AI nụ gị ụda',
+    heroSub: 'Kọọ ihe ọ bụ ọchịchọ gị, họrọ ụdị gị, anyị ga-arụ prompt ziri ezi site na ụzọ AI e gosipụtara — ka ị nwee ezi nsonaazụ site na ChatGPT, Claude, Gemini, na ndị ọzọ.',
+    step1: 'Kọọ ọrụ gị',
+    step2: 'Họrọ ụdị gị',
+    step3: 'Detuo prompt gị',
+
+    panelInputTitle: 'Wuo Prompt Gị',
+    taskLabel: 'Gịnị ọ bụ ihe ọchịchọ gị ka AI mee?',
+    taskPlaceholder: 'Dịka ọmụmaatụ: Dee email ọkachamara iji jụ ọrụ n\'oge i ji echekwa mmekọrịta mma ma hapụ ọnụ ụzọ mepụtara maka ihe ọzọ n\'ọdịnihu...',
+    taskHint: 'Bụrụ nke zuru ezu maka ezi nsonaazụ',
+    taskRequired: 'Achọtara',
+    modelLabel: 'Olee AI ị na-eji?',
+    roleLabel: 'Olee ụdị ọkachamara ọ bụ ọchịchọ gị ka AI bụrụ?',
+    rolePlaceholder: 'Dịka ọmụmaatụ: Onye ode akwụkwọ ọkachamara, ndụmọdụ ego, onye mmepe software...',
+    formatLabel: 'Usoro nzaghachi',
+    toneLabel: 'Ụda olu',
+    contextLabel: 'Ọ dị ihe ọzọ ma ọ bụ nkọwa?',
+    contextPlaceholder: 'Ndị ọbịa bụ ndị ole? Ndọdọ ole dị? Gịnị ọ bụ AI ekwesịghị ime? Ozi ndabere...',
+    optional: '— ọ bụghị dandan',
+    optionalButHelpful: '— ọ bụghị dandan mana ọ ga-enyere aka',
+    techniquesTitle: 'Usoro Dị Elu',
+    techniquesLabel: 'Mee prompt gị ka ọ sie ike site na ụzọ ndị a',
+    techniquesHint: '— tinye ihe na ya iji hụ nkọwa',
+    generateBtn: 'Mepụta Prompt M',
+    generating: 'Na-arụ prompt gị…',
+
+    panelOutputTitle: 'Prompt Gị Emepụtara',
+    emptyTitle: 'Prompt gị ga-apụta ebe a',
+    emptySub: 'Jupụta foọmụ wee pịa Mepụta',
+    loadingTitle: 'Na-arụ prompt gị nke ọma…',
+    loadingSub: 'Nke a na-ewe sekọnd 5–10',
+    promptStrength: 'Ike prompt',
+    copyBtn: 'Detuo Prompt',
+    copied: '✓ Edetuo ya!',
+    refineBtn: 'Mee Ka Ọ Dị Mma',
+    refining: 'Na-eme ka ọ dị mma…',
+    saveBtn: 'Chekwaa',
+    whyTitle: 'Ihe kpatara prompt a na-arụ ọrụ',
+
+    tipsHeading: '💡 Ndụmọdụ Maka Ezi Prompt',
+
+    errorNoTask: 'Biko kọọ ihe ọ bụ ọchịchọ gị ka AI mee.',
+    errorGeneral: 'Ihe ọ bụla mere nke ọjọọ. Biko nwaa ọzọ.',
+    errorRefine: 'Ịmeziga dara ada. Biko nwaa ọzọ.',
+
+    footerBuiltOn: "Ewubere na Ntụziaka Injinia Prompt nke Anthropic",
+    footerPowered: 'Claude Sonnet 4 Na-Eme Ya',
+
+    languageLabel: 'Asụsụ',
+  },
+};
+
+// Translated technique names and descriptions
+export const TECHNIQUE_TRANSLATIONS = {
+  en: {
+    cot:         { name: 'Chain-of-Thought',    desc: 'Step-by-step reasoning before answer' },
+    role:        { name: 'Role Priming',         desc: 'Assign an expert persona & context' },
+    fewshot:     { name: 'Few-Shot Examples',    desc: 'Include input/output demonstrations' },
+    xml:         { name: 'XML Structure',        desc: 'Tag sections for maximum clarity' },
+    constraints: { name: 'Explicit Constraints', desc: 'State exactly what NOT to do' },
+    prefill:     { name: 'Output Prefill',       desc: "Seed the AI's opening words" },
+    critique:    { name: 'Self-Critique Loop',   desc: 'Ask AI to review its own output' },
+    positive:    { name: 'Positive Framing',     desc: 'Tell what TO do, not just what to avoid' },
+  },
+  pidgin: {
+    cot:         { name: 'Step-by-Step Thinking', desc: 'Make AI think am well before e answer' },
+    role:        { name: 'Give AI Role',           desc: 'Tell AI which kind expert e be' },
+    fewshot:     { name: 'Show Example',           desc: 'Show am wetin good answer look like' },
+    xml:         { name: 'XML Structure',          desc: 'Organise the prompt with tags' },
+    constraints: { name: 'Say Wetin E No Go Do',  desc: 'Tell AI wetin e must avoid' },
+    prefill:     { name: 'Start the Answer',       desc: 'Begin the first word for AI' },
+    critique:    { name: 'Check Itself',           desc: 'Make AI review e own answer' },
+    positive:    { name: 'Positive Instructions',  desc: 'Tell AI wetin e suppose do' },
+  },
+  ha: {
+    cot:         { name: 'Tunanin Mataki-da-Mataki', desc: 'Yi tunani kafin amsa' },
+    role:        { name: 'Rawa ta AI',               desc: 'Ba AI matsayin ƙwararru' },
+    fewshot:     { name: 'Misalai Kaɗan',            desc: 'Nuna misalai na shigarwa/fitarwa' },
+    xml:         { name: 'Tsarin XML',               desc: 'Shirya sassan umarni da tags' },
+    constraints: { name: 'Ƙuntatawa Bayyananniya',   desc: 'Faɗi abin da AI bai kamata ya yi' },
+    prefill:     { name: 'Fara Amsa',                desc: 'Fara kalmar farko don AI' },
+    critique:    { name: 'Sake Duba Kansa',          desc: 'Sanya AI ya bincika amsar sa' },
+    positive:    { name: 'Umarni na Kyau',           desc: 'Faɗi abin da AI ya kamata ya yi' },
+  },
+  yo: {
+    cot:         { name: 'Ìrònú Ìgbésẹ̀-Ìgbésẹ̀',  desc: 'Ronu ṣáájú ìdáhùn' },
+    role:        { name: 'Ipa AI',                   desc: 'Fun AI ni ipa akọṣẹmọṣẹ' },
+    fewshot:     { name: 'Àwọn Àpẹẹrẹ Díẹ̀',       desc: 'Fihan àwọn àpẹẹrẹ ìgbàwọlé/ìgbáde' },
+    xml:         { name: 'Ìpèsè XML',               desc: 'Ṣeto àwọn apá àṣẹ pẹ̀lú tags' },
+    constraints: { name: 'Àwọn Ìdíwọ́ Gbangba',    desc: 'Sọ ohun tí AI kò gbọdọ̀ ṣe' },
+    prefill:     { name: 'Bẹ̀rẹ̀ Ìdáhùn',          desc: 'Bẹ̀rẹ̀ ọ̀rọ̀ àkọ́kọ́ fún AI' },
+    critique:    { name: 'Ṣayẹ̀wò Ara Rẹ̀',        desc: 'Jẹ́ kí AI ṣayẹ̀wò ìdáhùn rẹ̀' },
+    positive:    { name: 'Ìtọ́nisọ́nà Rere',        desc: 'Sọ ohun tí AI yẹ kí ó ṣe' },
+  },
+  ig: {
+    cot:         { name: 'Nghọta Nzọụkwụ-Nzọụkwụ', desc: 'Tụlee tupu ị zaghachi' },
+    role:        { name: 'Ọrụ AI',                   desc: 'Nye AI ọrụ ọkachamara' },
+    fewshot:     { name: 'Ọmụmaatụ Ole na Ole',      desc: 'Gosipụta ọmụmaatụ ntinye/ntọhapụ' },
+    xml:         { name: 'Nhazi XML',                desc: 'Hazie akụkụ prompt site na tags' },
+    constraints: { name: 'Ọnọdụ Ịgbochi Doro Anya', desc: 'Kwuo ihe AI kwesịghị ime' },
+    prefill:     { name: 'Bido Nzaghachi',           desc: 'Bido okwu mbụ maka AI' },
+    critique:    { name: 'Nyochaa Onwe Ya',          desc: 'Mee ka AI nyochaa nzaghachi ya' },
+    positive:    { name: 'Ntuziaka Dị Mma',         desc: 'Kwuo ihe AI kwesịrị ime' },
+  },
+};
+
+// Tips translated
+export const TIPS_TRANSLATIONS = {
+  en: [
+    { num: '01', title: 'Be Specific',      body: 'Vague tasks get vague outputs. Name the exact deliverable, the audience, and what "done well" looks like.' },
+    { num: '02', title: 'Assign a Role',    body: '"You are a senior UX researcher" primes entirely different reasoning than providing no context at all.' },
+    { num: '03', title: 'Chain-of-Thought', body: '"Think step by step" is the single biggest accuracy boost for complex or multi-part tasks.' },
+    { num: '04', title: 'Use XML Tags',     body: 'Claude processes <context>, <task>, <format> cleanly — structure reduces misinterpretation.' },
+    { num: '05', title: 'Show an Example',  body: 'One concrete input→output example communicates your intent better than three paragraphs of instruction.' },
+    { num: '06', title: 'Name Constraints', body: 'List what to avoid explicitly — length limits, off-topic areas, forbidden assumptions. Prevention beats correction.' },
+  ],
+  pidgin: [
+    { num: '01', title: 'Be Specific',         body: 'If you talk am well, AI go answer well. Explain exactly wetin you want, who e be for, and wetin good answer look like.' },
+    { num: '02', title: 'Give AI One Role',     body: '"You be senior lawyer" go make AI reason different from when e get no context at all.' },
+    { num: '03', title: 'Make Am Think First',  body: '"Think am step by step" na the best way to make AI give correct answer for hard questions.' },
+    { num: '04', title: 'Use XML Tags',         body: 'Claude dey understand <context>, <task>, <format> tags well — e go reduce confusion plenty.' },
+    { num: '05', title: 'Show Example',         body: 'One concrete example go teach AI wetin you want pass three paragraph of explanation.' },
+    { num: '06', title: 'Talk Wetin E No Go Do', body: 'Tell AI wetin to avoid — like how long e suppose be, topic wey no relevant, things e no suppose assume.' },
+  ],
+  ha: [
+    { num: '01', title: 'Kasance Mai Bayani',    body: 'Ayyukan da ba a bayyana su suna samun amsoshin da ba a bayyana su. Faɗi ainihin abin da ake so.' },
+    { num: '02', title: 'Ba da Rawa',            body: '"Kai ƙwararren lauya ne" yana kunna tunani daban da ba a ba da mahallin ba.' },
+    { num: '03', title: 'Tunani Mataki-da-Mataki', body: '"Yi tunani mataki-da-mataki" shine mafi girman ƙarfafawa don ayyuka masu rikitarwa.' },
+    { num: '04', title: 'Yi Amfani da Tags na XML', body: 'Claude yana sarrafa <context>, <task>, <format> tags da kyau — tsari yana rage rashin fahimta.' },
+    { num: '05', title: 'Nuna Misali',           body: 'Misali ɗaya na ainihi yana sadar da nufinku fiye da sakin layi uku na umarnin.' },
+    { num: '06', title: 'Faɗi Abin da A Guji',  body: 'Lissafa abin da za a guje wa — iyakokin tsayi, yankuna da ba su dace ba, zato da ba a yarda ba.' },
+  ],
+  yo: [
+    { num: '01', title: 'Jẹ́ Pàtó',             body: 'Àwọn iṣẹ́ tó ń ṣókùnfà máa ń gba àbájáde tó ń ṣókùnfà. Darúkọ ohun tó yẹ kí a dé.' },
+    { num: '02', title: 'Fi Ipa hàn',            body: '"Ìwọ jẹ́ agbẹjọ́rò àgbà" máa ń ṣamisi ìrònú tó yàtọ̀ ju bí a kò bá fi ìmọ̀ yàtọ̀ hàn.' },
+    { num: '03', title: 'Ìrònú Ìgbésẹ̀-Ìgbésẹ̀', body: '"Ronu ìgbésẹ̀-ìgbésẹ̀" ni ìmúdára ìgbẹ́kọ̀ọ́ tó tóbi jù fún àwọn iṣẹ́ tó nira.' },
+    { num: '04', title: 'Lo Àwọn Tags XML',      body: 'Claude ń ṣe àtúpalẹ̀ <context>, <task>, <format> dáradára — ètò ń dín àṣìṣe ìtumọ̀ kù.' },
+    { num: '05', title: 'Fihan Àpẹẹrẹ',         body: 'Àpẹẹrẹ kan tó jẹ́ gidi ń sọ èrò rẹ dáradára ju àwọn párágíráfì mẹ́ta ìtọ́nisọ́nà.' },
+    { num: '06', title: 'Darúkọ Àwọn Ìdíwọ́',  body: 'Ṣe àkójọ ohun tí a kò gbọdọ̀ ṣe — ìwọ̀n gígùn, àwọn àgbègbè tí kò bára mu, àwọn ìdásí tí kò yẹ.' },
+  ],
+  ig: [
+    { num: '01', title: 'Bụrụ Onye Zuru Ezu',   body: 'Ọrụ a na-aghọtachaghị na-enweta nsonaazụ a na-aghọtachaghị. Kọọ ihe ọ bụ ọchịchọ gị n\'ụzọ zuru ezu.' },
+    { num: '02', title: 'Nye Ọrụ',              body: '"Ị bụ onye ọka iwu ọkachamara" na-emepụta echiche dị iche n\'agbanyeghị ọnọdụ.' },
+    { num: '03', title: 'Nghọta Nzọụkwụ-Nzọụkwụ', body: '"Tụlee nzọụkwụ-nzọụkwụ" bụ ihe kachasị ịbawanye ịdị ziri ezi maka ọrụ siri ike.' },
+    { num: '04', title: 'Jiri Tags XML',         body: 'Claude na-ahazi <context>, <task>, <format> nke ọma — nhazi na-ebelata nsogbu nghọta.' },
+    { num: '05', title: 'Gosipụta Ọmụmaatụ',    body: 'Ọmụmaatụ n\'ezie otu na-ekwu echiche gị nke ọma karịa paragraf atọ ntuziaka.' },
+    { num: '06', title: 'Kọọ Ihe a Ga-ezere',   body: 'Depụta ihe a ga-ezere kpọmkwem — oke ogologo, mpaghara a na-adịghị, ihe echiche a kwesịghị.' },
+  ],
+};
