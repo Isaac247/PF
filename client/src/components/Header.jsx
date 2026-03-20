@@ -21,7 +21,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        Prompt<span className={styles.accent}>Smith</span>
+        Prompt<span className={styles.accent}>Lit</span>
       </div>
 
       <div className={styles.center}>

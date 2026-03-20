@@ -6,7 +6,7 @@ export default function Footer() {
   const { t } = useLang();
   return (
     <footer className={styles.footer}>
-      <span className={styles.brand}>PromptSmith</span>
+      <span className={styles.brand}>PromptLit</span>
       <span className={styles.sep}>·</span>
       <span>{t.footerBuiltOn}</span>
       <span className={styles.sep}>·</span>
